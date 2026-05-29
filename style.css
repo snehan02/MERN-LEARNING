@@ -1,0 +1,38 @@
+#countlabel{
+    display:block;
+    text-align:center;
+    font-size:10em;
+    font-family:Helvetica;
+    margin:auto;
+    
+}
+#btnContainer{
+    text-align:center;
+    
+
+}
+.buttons{
+    padding:10px 20px;
+    font-size:1.5em;
+    color:white;
+    background-color:blue;
+    border-radius:5px;
+    cursor:pointer;
+    transition: background-color 0.25s;
+}
+.buttons:hover{
+    background-color: hsl(214,100%,56%);
+
+}
+h1{
+    text-align: center; 
+}
+#box{
+width:400px;
+background-color: rgb(248, 239, 239);
+margin: 100px auto;
+padding: 20px;  
+text-align:center;
+box-shadow: 0 0 10px rgba(163, 105, 105, 0.384) ;
+margin-top: 10px;
+}
