@@ -82,7 +82,7 @@ resetbtn.onclick = function(){
 
   console.log(z);
 
-*/
+//if else statement
 const mytext = document.getElementById("mytext");
 const submitbtn = document.getElementById("mysubmit");
 const resultelement = document.getElementById("resultelement");
@@ -103,3 +103,64 @@ else{
 
 
 }
+//ternary operator
+let time = 16;
+let greeting = time<12 ?"good morning": "good afternoon";
+console.log (greeting)ll
+
+//string operation
+let username = "sneha";
+console.log (username.charAt(0));
+console.log (username.length)
+let results = username.includes("w");
+console.log (results)
+
+//slicing 
+const email = "snehan@gmail.com";
+let username = email.slice(0,email.indexOf("@"));
+console.log(username);
+
+//Method chaining 
+//without method chaining
+let user = window.prompt("what's your name?");
+//username = user.charAt(0);
+//username = username.toUpperCase();
+//snehasnehconsole.log(username);
+
+//with method chaining 
+user = user.charAt(0).toUpperCase();
+console.log(user);
+
+//logical operators
+let temp = 88;
+
+if (temp >25 && temp<31){
+    console.log("weather is Good");
+}
+else if (temp >30 && temp <40){
+    console.log("weather is hot");
+}
+else if (temp <15 || temp >40){
+    console.log ("it is Extream Weather");
+}
+
+//While loop
+let loggedIn = false;
+let username;
+let password;
+
+while (!loggedIn){
+    username = window.prompt("enter your name");
+    password = window.prompt("enter your password");
+    if (username === "sneha" && password === "123"){
+        loggedIn = true;
+        console.log("you are logged in successfully");
+    }
+    else{
+        console.log("invalid username");
+    }
+}
+
+*/
+
+//Temperature converter
