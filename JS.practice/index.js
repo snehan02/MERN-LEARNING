@@ -44,7 +44,7 @@ Z = Boolean(z);
 console.log(x ,typeof x);
 console.log(y,typeof y);
 console.log(z,typeof z);
-
+*/
 
 //counter program
 const decreaseBtn = document.getElementById("decBtn");
@@ -66,7 +66,7 @@ resetbtn.onclick = function(){
     count = 0;
     countlabel.textContent = count;
 }
-
+/*
   //math
   let x = 3.4;
   let y = 3.9;
