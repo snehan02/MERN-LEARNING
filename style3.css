@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.password-container {
+  display: flex;
+  gap: 8px;
+}
+
+#toggleBtn,
+#sub-btn {
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  background-color: rgb(73, 70, 65);
+  color: white;
+}
+
+#sub-btn {
+  width: 100%;
+  background: #3b8de4;
+  color: rgb(26, 25, 25);
+  border-color: #a4ccf6;
+  border-radius: 5px;
+}
+
+#sub-btn:hover {
+  background-color: #0e5492;
+  color: white;
+}

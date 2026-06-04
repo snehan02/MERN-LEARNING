@@ -145,7 +145,7 @@ h1,h2{
     border-radius: 15px;
     box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
     transition: 0.3s ease;
-    max-width: 320px;;
+    max-width: 320px;
 }
 
 .tech-card:hover {
@@ -355,9 +355,9 @@ h1,h2{
 button {
     width: 100%;
     padding: 12px;
-    background: #3498db;
-    color: white;
-    border: none;
+    background: #afd6ef;
+    color: rgb(18, 18, 18);
+    border-color: #333;
     border-radius: 8px;
     cursor: pointer;
     font-size: 16px;
@@ -469,42 +469,120 @@ td a:hover{
     padding: 20px;
 }
 
+#about,
+#education,
+#certificates,
+#projects,
+#achievements,
+#contact{
+    scroll-margin-top: 80px;
+}
+
 @media (max-width: 768px) {
 
-    .container {
+    
+    .navbar{
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .nav-links{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    
+    .container{
         flex-direction: column;
         text-align: center;
+        margin: 20px;
     }
+
     .image-container img{
         width: 180px;
         height: 180px;
     }
-    .certificates,.tech-container,.projects-grid{
+
+    .container p{
+        font-size: 16px;
+    }
+
+   
+    .education{
+        flex-direction: column;
+    }
+
+    .edu-line{
+        width: 3px;
+        height: 40px;
+    }
+
+    
+    .certificates{
         grid-template-columns: 1fr;
     }
+
+    
+    .tech-container{
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .tech-card{
+        max-width: 100%;
+    }
+
+    
+    .projects-grid{
+        grid-template-columns: 1fr;
+    }
+
+    
     .achievement-card{
         flex-direction: column;
         align-items: flex-start;
-        gap:20px;
+        gap: 20px;
     }
+
     .details{
         flex-direction: column;
-        gap:10px;
+        gap: 10px;
     }
+
     .btn{
-        width:100%;
+        width: 100%;
         text-align: center;
     }
-    .hobbies,.internship-section{
+
+    
+    .internship-section{
         flex-direction: column;
         align-items: center;
     }
-    .card-container {
+
+    .blog-post{
         width: 90%;
     }
-    table {
-        width: 100%;
-        font-size: 14px;
+
+    
+    .container-card{
+        width: 90%;
     }
 
+    
+        table{
+        width:100%;
+        font-size:12px;
+    }
+
+    th, td{
+        padding:6px;
+    }
 }
+
+    
+    .hobby{
+        min-width: 180px;
+    }
