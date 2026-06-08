@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Find Employee by ID</h2>
+
+    <button onclick="findEmployee()">Search Employee</button>
+    <p id="result"></p>
+    <script>
+      const employees = [
+        { id: 1, name: "Sneha", department: "IT" },
+        { id: 2, name: "Chaya", department: "CS" },
+        { id: 3, name: "dhanya", department: "AI" },
+        { id: 4, name: "sarayu", department: "ML" },
+      ];
+      function findEmployee() {
+        const searchid = Number(prompt("Enter a id to search"));
+        const employee = employees.find((emp) => emp.id == searchid);
+
+        if (employee) {
+          document.getElementById("result").innerHTML = `ID : ${employee.id}<br>
+          Name: ${employee.name}<br>
+          Department: ${employee.department}`;
+        } else {
+          document.getElementById("result").textContent = "Employee Not Found";
+        }
+      }
+    </script>
+  </body>
+</html>
