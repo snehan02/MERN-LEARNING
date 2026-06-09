@@ -28,8 +28,8 @@ const renderTasks = () => {
         li.innerHTML = `
             <span>${task.text}</span>
             <div class="task-actions">
-                <button class="complete-btn" onclick="toggleTask(${index})">✓</button>
-                <button class="delete-btn" onclick="deleteTask(${index})">🗑</button>
+                <button class="complete-btn" onclick="toggleTask(${index})">Completed</button>
+                <button class="delete-btn" onclick="deleteTask(${index})">Delete</button>
             </div>
         `;
 
