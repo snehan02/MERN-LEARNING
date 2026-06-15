@@ -200,17 +200,31 @@
 // export default App;
 
 //profile components
-import Profile from "./profile";
+// import Profile from "./profile";
 
+
+// function App() {
+//   return (
+//     <div>
+//       <Profile name="chaya" department="IT" />
+//       <Profile name = "Sneha" department = "IT"/>
+//       <Profile name = "Pranavi" department = "marketing"/>
+//       <Profile name = "Dhanya" department = "AI"/>
+//       <Profile name = "chandana" department = "Sales"/>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+import Student from "./Student1";
 
 function App() {
   return (
     <div>
-      <Profile name="chaya" department="IT" />
-      <Profile name = "Sneha" department = "IT"/>
-      <Profile name = "Pranavi" department = "marketing"/>
-      <Profile name = "Dhanya" department = "AI"/>
-      <Profile name = "chandana" department = "Sales"/>
+      <Student studentName="Rahul" course="MERN" />
+      <Student studentName="priya" course="MERN" />
     </div>
   );
 }
