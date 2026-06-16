@@ -395,7 +395,6 @@
     0 0 60px rgba(255, 77, 109, 0.08);
 }
 
-
 .offer-glow {
   position: absolute;
   border-radius: 50%;
@@ -488,10 +487,6 @@
   box-shadow: 0 15px 30px rgba(255, 255, 255, 0.15);
 }
 /* TESTIMONIALS */
-
-/* =========================
-   TESTIMONIALS
-========================= */
 
 .testimonials {
   padding: 100px 8%;
@@ -624,10 +619,6 @@
   background: var(--primary);
 }
 
-/* =========================
-   WHY CHOOSE US
-========================= */
-
 .why-us {
   padding: 100px 8%;
   text-align: center;
@@ -683,9 +674,6 @@
 }
 
 /* FOOTER */
-/* =========================
-   FOOTER
-========================= */
 
 .footer {
   background: #111;

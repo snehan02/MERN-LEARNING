@@ -1,13 +1,7 @@
 function Profile() {
-  const orders = [
-    "Floral Dress",
-    "Hand Bag",
-  ];
+  const orders = ["Floral Dress", "Hand Bag"];
 
-  const wishlist = [
-    "Necklace",
-    "Sunglasses",
-  ];
+  const wishlist = ["Necklace", "Sunglasses"];
 
   return (
     <div>
@@ -26,7 +20,7 @@ function Profile() {
         ))}
       </ul>
 
-      <h2>Wishlist ❤️</h2>
+      <h2>Wishlist</h2>
 
       <ul>
         {wishlist.map((item, index) => (

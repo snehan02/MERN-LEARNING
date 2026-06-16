@@ -25,7 +25,7 @@ function Shop() {
   const [search, setSearch] = useState("");
 
   const filteredProducts = products.filter((item) =>
-    item.name.toLowerCase().includes(search.toLowerCase())
+    item.name.toLowerCase().includes(search.toLowerCase()),
   );
 
   return (

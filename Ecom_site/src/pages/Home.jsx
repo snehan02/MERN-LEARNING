@@ -9,7 +9,6 @@ function Home() {
     <>
       <Navbar />
 
-      
       <section className="hero-section">
         <div className="hero-content">
           <h1>
@@ -19,9 +18,9 @@ function Home() {
           <h2>Fashion That Speaks For You</h2>
 
           <p>
-            Discover premium collections crafted for every mood, every
-            occasion, and every version of you. Elevate your wardrobe with
-            timeless fashion.
+            Discover premium collections crafted for every mood, every occasion,
+            and every version of you. Elevate your wardrobe with timeless
+            fashion.
           </p>
 
           <button className="shop-btn">Shop Collection</button>
@@ -42,7 +41,6 @@ function Home() {
         </div>
       </section>
 
-     
       <section className="categories">
         <h5>Categories</h5>
         <h2>Shop By Category</h2>
@@ -70,7 +68,6 @@ function Home() {
         </div>
       </section>
 
-      
       <section className="best-sellers">
         <h5>Trending Collection</h5>
         <h2>Best Sellers</h2>
@@ -106,7 +103,6 @@ function Home() {
         </div>
       </section>
 
-      
       <section className="offer">
         <div className="offer-glow glow-1"></div>
         <div className="offer-glow glow-2"></div>
@@ -125,7 +121,6 @@ function Home() {
         </div>
       </section>
 
-      
       <section className="testimonials">
         <h5>Customer Reviews</h5>
         <h2>Loved By Thousands</h2>
@@ -184,7 +179,6 @@ function Home() {
         </div>
       </section>
 
-      
       <section className="brands">
         <h5>Trusted By</h5>
         <h2>Our Brand Partners</h2>
@@ -212,7 +206,6 @@ function Home() {
         </div>
       </section>
 
-      
       <section className="newsletter">
         <h2>Subscribe To Our Newsletter</h2>
 
@@ -224,7 +217,6 @@ function Home() {
         </div>
       </section>
 
-      
       <section className="why-us">
         <h5>Why Shop With Us</h5>
 
@@ -317,4 +309,3 @@ function Home() {
 }
 
 export default Home;
-

@@ -218,13 +218,39 @@
 // export default App;
 
 
-import Student from "./Student1";
+// import Student from "./Student1";
+
+// function App() {
+//   return (
+//     <div>
+//       <Student studentName="Rahul" course="MERN" />
+//       <Student studentName="priya" course="MERN" />
+//     </div>
+//   );
+// }
+
+// export default App;
+
+import React, { useState } from "react";
 
 function App() {
+  const [showDetails, setShowDetails] = useState(false);
+
   return (
     <div>
-      <Student studentName="Rahul" course="MERN" />
-      <Student studentName="priya" course="MERN" />
+      <h1>Hello</h1>
+
+      <button onClick={() => setShowDetails(!showDetails)}>
+        {showDetails ? "Hide Details" : "Show Details"}
+      </button>
+
+      {showDetails && (
+        <div style={{ marginTop: "10px" }}>
+          <p>hello welcome!!</p>
+          <p>how are you ?</p>
+          <p>Happy Learning</p>
+        </div>
+      )}
     </div>
   );
 }
